@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="Arasaka_Employers.UserControls.list_item"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Arasaka_Employers.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="20" d:DesignWidth="300">
+    <Grid Height="20" Width="300">
+        <TextBlock HorizontalAlignment="Left" Name="Tovar"></TextBlock>
+        <TextBlock HorizontalAlignment="Right" Name="Count" Text="sda"></TextBlock>
+    </Grid>
+</UserControl>

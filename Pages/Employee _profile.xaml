@@ -1,0 +1,26 @@
+﻿<Page x:Class="Arasaka_Employers.Pages.Employee__profile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Arasaka_Employers.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Employee__profile">
+
+    <Grid Background="#FF4C4C4C">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBox Margin="5"></TextBox>
+        <StackPanel Grid.Row="2" HorizontalAlignment="Right" Orientation="Horizontal">
+            <Button Content="Закрыть" Margin="5" MinWidth="100"></Button>
+            <Button Content="Выдать" Margin="5" MinWidth="100"></Button>
+        </StackPanel>
+        <Button Grid.Row="2" HorizontalAlignment="Left" MinWidth="100" Content="Выти" Margin="5"></Button>
+        <ListView Grid.Row="1" Background="#FF4C4C4C">
+        </ListView>
+    </Grid>
+</Page>
